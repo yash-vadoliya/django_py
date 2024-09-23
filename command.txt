@@ -1,0 +1,24 @@
+//install django
+pip install django
+
+
+//create an project
+django-admin startproject project_name
+
+//move to project folder
+cd project_name
+
+// create an app 
+python manage.py startapp app_name
+
+//make migration
+python manage.py makemigrations
+Python manage.py migrate  
+
+//create superuser
+python manage.py createsuperuser
+
+krunal5402282
+
+//run project
+python manage.py runserver  
